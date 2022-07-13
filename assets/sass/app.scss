@@ -195,13 +195,21 @@ body {
     }
   }
 
-  @media screen and(max-width: 1023px) {
+  @media screen and(max-width: 1190px) {
     &-list {
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 80px 30px;
+      gap: 80px 10px;
+      
     }
   }
+
+  @media screen and(max-width: 1150px) {
+    &-list {
+      flex-wrap: wrap;
+      gap: 80px 40px;
+    }
+  }
+
 
   @media screen and(max-width: 790px) {
     &-list {

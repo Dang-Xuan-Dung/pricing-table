@@ -182,14 +182,19 @@ body {
   border-color: #40b22d;
   color: #40b22d;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1190px) {
   .pricing-list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 80px 30px;
+    gap: 80px 10px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .pricing-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 80px 40px;
   }
 }
 @media screen and (max-width: 790px) {

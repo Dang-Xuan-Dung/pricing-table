@@ -16,8 +16,9 @@ body {
 
 .pricing {
   width: 100%;
-  max-width: 1172px;
+  max-width: 1192px;
   margin: 100px auto;
+  padding: 0 10px;
 }
 .pricing-list {
   display: -webkit-box;
@@ -26,8 +27,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 0 43px;
-  padding: 0 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 80px 43px;
 }
 .pricing-item {
   position: relative;

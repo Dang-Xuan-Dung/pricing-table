@@ -15,14 +15,15 @@ body {
 
 .pricing {
   width: 100%;
-  max-width: 1172px;
+  max-width: 1192px;
   margin: 100px auto;
+  padding: 0 10px;
 
   &-list {
     display: flex;
     justify-content: space-between;
-    gap: 0 43px;
-    padding: 0 10px;
+    flex-wrap: wrap;
+    gap: 80px 43px;
   }
   &-item {
     position: relative;
@@ -199,7 +200,6 @@ body {
     &-list {
       justify-content: center;
       gap: 80px 10px;
-      
     }
   }
 
@@ -209,7 +209,6 @@ body {
       gap: 80px 40px;
     }
   }
-
 
   @media screen and(max-width: 790px) {
     &-list {
